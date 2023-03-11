@@ -300,7 +300,6 @@ GameObject:
   - component: {fileID: 1022847086}
   - component: {fileID: 1022847087}
   - component: {fileID: 1022847088}
-  - component: {fileID: 1022847089}
   m_Layer: 0
   m_Name: AR Session Origin
   m_TagString: Untagged
@@ -350,7 +349,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_SerializedLibrary: {fileID: 11400000, guid: b07055cb68de6d14fa9c933cbde88426, type: 2}
   m_MaxNumberOfMovingImages: 0
-  m_TrackedImagePrefab: {fileID: 919132149155446097, guid: 22a53ecbcad6d514ea8716ec5c468425, type: 3}
+  m_TrackedImagePrefab: {fileID: 8279296268441351565, guid: ffde30e5d1104b94da4cbfe9f21a28ee, type: 3}
 --- !u!114 &1022847086
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -358,7 +357,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1022847082}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: e1760703bbd54c04488a8d10600262ab, type: 3}
   m_Name: 
@@ -377,21 +376,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 67687082721e4584ebf7d8d92ad6bfa1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  gameObjectToInstantiate: {fileID: 919132149155446097, guid: 22a53ecbcad6d514ea8716ec5c468425, type: 3}
+  gameObjectToInstantiate: {fileID: 919132149155446097, guid: bd805770cb293264d872c6103694f7c6, type: 3}
 --- !u!114 &1022847088
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1022847082}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fa17d122634046b4a8e23048891fafc5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_RaycastPrefab: {fileID: 5509406482225763361, guid: fbf15194a766e7c44a2e1428b7e59e59, type: 3}
---- !u!114 &1022847089
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -400,9 +386,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 1022847082}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 396d45a4cfbf5724c93ab7f0bc9fa778, type: 3}
+  m_Script: {fileID: 11500000, guid: fa17d122634046b4a8e23048891fafc5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  m_RaycastPrefab: {fileID: 5509406482225763361, guid: fbf15194a766e7c44a2e1428b7e59e59, type: 3}
 --- !u!1 &1043024277
 GameObject:
   m_ObjectHideFlags: 0
