@@ -4,9 +4,19 @@ public class GhoulScript : MonoBehaviour
 {
     private Animation animations;
 
+    static int nbMaxGhouls = 2;
+    static int nbrGhoul = 0;
+
     void Start()
     {
         animations = gameObject.GetComponent<Animation>();
+        //Instantiate(gameObject, new Vector3(0, 0, 0), Quaternion.identity); // Création d'un objet à la position 0,0,0
+        //verifier que y a pas plus de nbMaxGhouls a l'instancier
+        if (nbrGhoul < nbMaxGhouls)
+        {
+            Instantiate(gameObject, new Vector3(1, 1, 0), Quaternion.identity); // Création d'un objet à la position 0,0,0
+            nbrGhoul++;
+        }
     }
 
     void Update()
