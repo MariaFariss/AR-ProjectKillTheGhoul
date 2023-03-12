@@ -909,11 +909,8 @@ GameObject:
   m_Component:
   - component: {fileID: 4467757482891228}
   - component: {fileID: 111670102475343736}
-  - component: {fileID: 1427500133616267553}
   - component: {fileID: 3219593404532282043}
-  - component: {fileID: 1482862100057760846}
-  - component: {fileID: 7631550699552305686}
-  - component: {fileID: 8165831029038525558}
+  - component: {fileID: 712083226730461385}
   m_Layer: 0
   m_Name: Ghoul
   m_TagString: Untagged
@@ -962,18 +959,6 @@ Animation:
   m_PlayAutomatically: 1
   m_AnimatePhysics: 0
   m_CullingType: 1
---- !u!114 &1427500133616267553
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1309486516299566}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 36898b580fe56c84ea7b496ded007e18, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!65 &3219593404532282043
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -987,7 +972,7 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1, y: 4.1921196, z: 2.83883}
   m_Center: {x: 0, y: 1.5960598, z: 0.919415}
---- !u!114 &1482862100057760846
+--- !u!114 &712083226730461385
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -996,35 +981,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 1309486516299566}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 70e2c07cd2589584db706d94fe1aed47, type: 3}
+  m_Script: {fileID: 11500000, guid: 36898b580fe56c84ea7b496ded007e18, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!114 &7631550699552305686
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1309486516299566}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 520bb47c46cf8624fafb307b7d1b862a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Camera: {fileID: 0}
---- !u!114 &8165831029038525558
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1309486516299566}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fa17d122634046b4a8e23048891fafc5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_RaycastPrefab: {fileID: 0}
 --- !u!1 &1312574273513674
 GameObject:
   m_ObjectHideFlags: 0
