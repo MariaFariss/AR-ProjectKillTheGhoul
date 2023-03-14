@@ -43,6 +43,15 @@ public class GhoulScript : MonoBehaviour
             animations.Play("Run");
         }
     }
+
+    private void OnTriggerEnter(Collider other)
+    {
+        if (other.gameObject.tag == "bullet")
+        {
+            animations.Play("Death");
+            Destroy(other.gameObject);
+        }
+    }
 }
 
 
