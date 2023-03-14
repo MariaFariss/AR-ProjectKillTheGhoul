@@ -342,14 +342,14 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1022847082}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 4dea56a9eaadd1c439095de4f9a371cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   m_SerializedLibrary: {fileID: 11400000, guid: 65438e16758d31d45a6cad1cdc86717d, type: 2}
   m_MaxNumberOfMovingImages: 0
-  m_TrackedImagePrefab: {fileID: 1309486516299566, guid: 227ee07e9e5b7914ba8fbb8f430be9a5, type: 3}
+  m_TrackedImagePrefab: {fileID: 861897347214650797, guid: 4d61d9e530ea75247a74f1572cf4aa81, type: 3}
 --- !u!114 &1022847086
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -357,12 +357,12 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1022847082}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: e1760703bbd54c04488a8d10600262ab, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_PlanePrefab: {fileID: 5509406482225763361, guid: fbf15194a766e7c44a2e1428b7e59e59, type: 3}
+  m_PlanePrefab: {fileID: 32067486913411771, guid: d83f3aed2fb88af49ae9d3038146ace2, type: 3}
   m_DetectionMode: -1
 --- !u!114 &1022847087
 MonoBehaviour:
@@ -376,7 +376,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 67687082721e4584ebf7d8d92ad6bfa1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  gameObjectToInstantiate: {fileID: 1309486516299566, guid: 227ee07e9e5b7914ba8fbb8f430be9a5, type: 3}
+  gameObjectToInstantiate: {fileID: 861897347214650797, guid: 4d61d9e530ea75247a74f1572cf4aa81, type: 3}
 --- !u!114 &1022847088
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -384,12 +384,12 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1022847082}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fa17d122634046b4a8e23048891fafc5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_RaycastPrefab: {fileID: 5509406482225763361, guid: fbf15194a766e7c44a2e1428b7e59e59, type: 3}
+  m_RaycastPrefab: {fileID: 915933009}
 --- !u!1 &1043024277
 GameObject:
   m_ObjectHideFlags: 0
