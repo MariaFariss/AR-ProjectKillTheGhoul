@@ -40,7 +40,7 @@ public class GhoulScript : MonoBehaviour
         if (animations.isPlaying && animations["Death"].time >= animations["Death"].length)
         {
             animations.Stop();
-            animations.Play("Run");
+            Destroy(gameObject);
         }
     }
 
