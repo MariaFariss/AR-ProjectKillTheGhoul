@@ -79,15 +79,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4467757482891228, guid: 227ee07e9e5b7914ba8fbb8f430be9a5, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 2.008842
+      value: 1.45
       objectReference: {fileID: 0}
     - target: {fileID: 4467757482891228, guid: 227ee07e9e5b7914ba8fbb8f430be9a5, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.62827015
+      value: 0.26
       objectReference: {fileID: 0}
     - target: {fileID: 4467757482891228, guid: 227ee07e9e5b7914ba8fbb8f430be9a5, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 3.2
+      value: 5.25
       objectReference: {fileID: 0}
     - target: {fileID: 4467757482891228, guid: 227ee07e9e5b7914ba8fbb8f430be9a5, type: 3}
       propertyPath: m_LocalRotation.w
@@ -131,6 +131,34 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 861897347214650796}
     m_Modifications:
+    - target: {fileID: 467290618191147116, guid: 04ebe5ce4791bc84db666a3157d9d722, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: ce259f2d21c3a144da4578c4f2b10bb8, type: 2}
+    - target: {fileID: 467544538806694998, guid: 04ebe5ce4791bc84db666a3157d9d722, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: f6810082b7d265d4ea9c52d4c6fa3926, type: 2}
+    - target: {fileID: 467760894627920570, guid: 04ebe5ce4791bc84db666a3157d9d722, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: ce259f2d21c3a144da4578c4f2b10bb8, type: 2}
+    - target: {fileID: 467807271968523854, guid: 04ebe5ce4791bc84db666a3157d9d722, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: ce259f2d21c3a144da4578c4f2b10bb8, type: 2}
+    - target: {fileID: 541670940903883666, guid: 04ebe5ce4791bc84db666a3157d9d722, type: 3}
+      propertyPath: m_RootOrder
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 541670940903883666, guid: 04ebe5ce4791bc84db666a3157d9d722, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.53
+      objectReference: {fileID: 0}
+    - target: {fileID: 541670940903883666, guid: 04ebe5ce4791bc84db666a3157d9d722, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.28
+      objectReference: {fileID: 0}
     - target: {fileID: 1833400504454489332, guid: 04ebe5ce4791bc84db666a3157d9d722, type: 3}
       propertyPath: m_RootOrder
       value: 1
@@ -595,6 +623,10 @@ PrefabInstance:
       propertyPath: pathCreator
       value: 
       objectReference: {fileID: 2754592174408335055}
+    - target: {fileID: 3737354824656293385, guid: 04ebe5ce4791bc84db666a3157d9d722, type: 3}
+      propertyPath: m_Animation
+      value: 
+      objectReference: {fileID: 7400000, guid: 9e6c2d8b423b3db4ca189e8497d60f1e, type: 3}
     - target: {fileID: 4837916323827661185, guid: 04ebe5ce4791bc84db666a3157d9d722, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
@@ -634,6 +666,10 @@ PrefabInstance:
     - target: {fileID: 6849270669649211885, guid: 04ebe5ce4791bc84db666a3157d9d722, type: 3}
       propertyPath: m_LocalPosition.y
       value: -0.56
+      objectReference: {fileID: 0}
+    - target: {fileID: 7324071988217378586, guid: 04ebe5ce4791bc84db666a3157d9d722, type: 3}
+      propertyPath: speed
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 8335295536870651018, guid: 04ebe5ce4791bc84db666a3157d9d722, type: 3}
       propertyPath: m_IsTrigger
@@ -678,9 +714,9 @@ MonoBehaviour:
       - {x: 1.5172999, y: -0.24135, z: 0}
       - {x: 2, y: 0, z: 0}
       - {x: 2.871506, y: 0.43575287, z: 0}
-      - {x: 3.3475506, y: 0.48217276, z: 2.86104}
-      - {x: 2.1540656, y: 0.40771484, z: 3.485125}
-      - {x: 0.7242341, y: 0.31851202, z: 4.2327976}
+      - {x: 3.3475506, y: 0.08327067, z: 3.005052}
+      - {x: 2.1540656, y: 0.008812785, z: 3.629137}
+      - {x: 0.7242341, y: -0.080390036, z: 4.376811}
       - {x: -2.5882688, y: -0.303448, z: 2.5843127}
       isClosed: 1
       space: 0
@@ -696,7 +732,7 @@ MonoBehaviour:
       - 0
       - 0
       - 0
-      globalNormalsAngle: 117
+      globalNormalsAngle: 87
       flipNormals: 0
     vertexPathUpToDate: 1
     vertexPathMaxAngleError: 0.3

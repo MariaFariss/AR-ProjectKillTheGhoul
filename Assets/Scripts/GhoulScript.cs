@@ -1,3 +1,4 @@
+using System.Collections;
 using UnityEngine;
 
 public class GhoulScript : MonoBehaviour
@@ -21,6 +22,10 @@ public class GhoulScript : MonoBehaviour
 
     void Update()
     {
+        killObject(gameObject);
+    }
+    void killObject(GameObject gameObject)
+    {
         // Vérification si l'utilisateur touche l'écran
         if (Input.touchCount > 0 && Input.GetTouch(0).phase == TouchPhase.Began)
         {
@@ -34,20 +39,34 @@ public class GhoulScript : MonoBehaviour
                 {
                     animations.Play("Death");
                     
+
                 }
             }
+            
         }
 
+        shutDownAnnimation();
+    }
+
+    void shutDownAnnimation()
+    {
         if (animations.isPlaying && animations["Death"].time >= animations["Death"].length)
         {
             animations.Stop();
-            Destroy(gameObject);
-            Instantiate(gameObject);
+
+            // Génération d'une position aléatoire pour le nouveau Ghoul
+            float randomX = UnityEngine.Random.Range(-1f, 1f);
+            float randomY = UnityEngine.Random.Range(-1f, 1f);
+            float randomZ = UnityEngine.Random.Range(-1f, 1f);
+            Vector3 randomPosition = new Vector3(randomX, randomY, randomZ);
             
+            Instantiate(gameObject, randomPosition, Quaternion.identity);
+            Destroy(gameObject);
+
         }
     }
 
-    private void OnTriggerEnter(Collider other)
+private void OnTriggerEnter(Collider other)
     {
         if (other.gameObject.tag == "bullet")
         {
