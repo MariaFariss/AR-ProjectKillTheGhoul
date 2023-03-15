@@ -33,6 +33,7 @@ public class GhoulScript : MonoBehaviour
                 if (hit.transform.gameObject == gameObject)
                 {
                     animations.Play("Death");
+                    
                 }
             }
         }
@@ -41,6 +42,8 @@ public class GhoulScript : MonoBehaviour
         {
             animations.Stop();
             Destroy(gameObject);
+            Instantiate(gameObject);
+            
         }
     }
 
