@@ -3,11 +3,12 @@ using UnityEngine.XR.ARFoundation;
 
 public class MoveObjectOnPlane : MonoBehaviour
 {
-    [SerializeField] private ARTrackedImageManager _arTrackedImageManager;
-    [SerializeField] private float _moveSpeed = 0.1f;
-    private Vector3 _targetPosition;
+    [SerializeField] private ARTrackedImageManager _arTrackedImageManager; // Reference to the ARTrackedImageManager
+    [SerializeField] private float _moveSpeed = 0.1f; // Speed at which the object will move
+    private Vector3 _targetPosition; // Target position to move to
 
-    private void OnEnable()
+
+    private void OnEnable() //  Register for the tracked images changed event
     {
         _arTrackedImageManager.trackedImagesChanged += OnTrackedImagesChanged;
     }
